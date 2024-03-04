@@ -9,11 +9,10 @@
     ":semanticCommits",
     ":automergeDigest",
     ":automergeBranch",
-    "github>xUnholy/k8s-gitops//.github/renovate/autoMerge.json5",
-    "github>xUnholy/k8s-gitops//.github/renovate/commitMessage.json5",
-    "github>xUnholy/k8s-gitops//.github/renovate/labels.json5",
-    "github>xUnholy/k8s-gitops//.github/renovate/semanticCommits.json5",
-    "helpers:pinGitHubActionDigests",
+    "github>Pjstaab/k8s-gitops//.github/renovate/autoMerge.json5",
+    "github>Pjstaab/k8s-gitops//.github/renovate/commitMessage.json5",
+    "github>Pjstaab/k8s-gitops//.github/renovate/labels.json5",
+    "github>Pjstaab/k8s-gitops//.github/renovate/semanticCommits.json5",
     "security:openssf-scorecard"
   ],
   "enabled": true,
@@ -24,9 +23,6 @@
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "platformAutomerge": true,  // https://docs.renovatebot.com/modules/manager/pre-commit/
-  "pre-commit": {
-    "enabled": true
-  },
   "kubernetes": {
     "fileMatch": [
       "kubernetes/.+\\.ya?ml$"
