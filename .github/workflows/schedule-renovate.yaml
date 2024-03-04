@@ -50,7 +50,7 @@ jobs:
         uses: suzuki-shunsuke/github-action-renovate-config-validator@v1.0.1
 
       - name: Generate Token
-        uses: tibdex/github-app-token@v2
+        uses: actions/create-github-app-token@v1
         id: generate-token
         with:
           app_id: "${{ secrets.BOT_APP_ID }}"
