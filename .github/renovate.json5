@@ -9,7 +9,7 @@
     ":semanticCommits",
     ":automergeDigest",
     ":automergeBranch",
-    "github>Pjstaab/k8s-gitops//.github/renovate/autoMerge.json5",
+    // "github>Pjstaab/k8s-gitops//.github/renovate/autoMerge.json5",
     "github>Pjstaab/k8s-gitops//.github/renovate/commitMessage.json5",
     "github>Pjstaab/k8s-gitops//.github/renovate/labels.json5",
     "github>Pjstaab/k8s-gitops//.github/renovate/semanticCommits.json5",
