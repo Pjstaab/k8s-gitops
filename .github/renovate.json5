@@ -17,9 +17,6 @@
     "security:openssf-scorecard"
   ],
   "enabled": true,
-  "platform": "github",
-  "onboarding": false,
-  "requireConfig": "optional",
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "dependencyDashboardAutoclose": true,
   "configWarningReuseIssue": true,
