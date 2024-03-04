@@ -11,7 +11,7 @@ on:
       # https://docs.renovatebot.com/examples/self-hosting/#about-the-log-level-numbers
       logLevel:
         description: "Log Level"
-        default: "debug"
+        default: "info"
         required: false
   schedule:
     - cron: "0 * * * *"
@@ -24,7 +24,7 @@ on:
       - ".github/renovate/*"
 
 env:
-  LOG_LEVEL: debug
+  LOG_LEVEL: info
   RENOVATE_DRY_RUN: false
   RENOVATE_PLATFORM: github
   RENOVATE_PLATFORM_COMMIT: true
