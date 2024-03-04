@@ -15,7 +15,7 @@ on:
       - ".github/workflows/schemas.yaml"
 
 env:
-  OCI_REPO: "oci://ghcr.io/xunholy/kubernetes-schemas/${{ github.event.repository.name }}"
+  OCI_REPO: "oci://ghcr.io/pjstab/kubernetes-schemas/${{ github.event.repository.name }}"
 
 jobs:
   publish-kubernetes-schemas:
@@ -115,9 +115,9 @@ jobs:
           file: /home/runner/crdSchemas/Dockerfile
           push: true
           tags: |
-            ghcr.io/xunholy/kubernetes-schemas-web:latest
+            ghcr.io/pjstab/kubernetes-schemas-web:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
           labels: |
             org.opencontainers.image.source="https://github.com/${{ github.repository }}"
-            org.opencontainers.image.authors="Michael Fornaro <20387402+xUnholy@users.noreply.github.com>"
+            org.opencontainers.image.authors="Michael Fornaro <20387402+pjstab@users.noreply.github.com>"

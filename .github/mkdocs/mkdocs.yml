@@ -1,12 +1,12 @@
 # Project information
-site_name: xUnholy | Raspbernetes
+site_name: pjstab | Raspbernetes
 site_description: This repo is a declarative implementation of a Kubernetes cluster using GitOps.
 site_author: Michael Fornaro
-site_url: https://xunholy.github.io/k8s-gitops/
+site_url: https://pjstab.github.io/k8s-gitops/
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository-name
-repo_name: xunholy/k8s-gitops
-repo_url: https://github.com/xunholy/k8s-gitops
+repo_name: pjstab/k8s-gitops
+repo_url: https://github.com/pjstab/k8s-gitops
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#edit-button
 edit_uri: 'edit/main/docs/'
@@ -48,9 +48,9 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/xunholy
+      link: https://github.com/pjstab
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/xunholy
+      link: https://hub.docker.com/u/pjstab
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/michael-fornaro-5b756179/
     - icon: fontawesome/brands/medium

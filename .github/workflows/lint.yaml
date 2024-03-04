@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  OCI_REPO: "oci://ghcr.io/xunholy/kubernetes-schemas/${{ github.event.repository.name }}"
+  OCI_REPO: "oci://ghcr.io/pjstab/kubernetes-schemas/${{ github.event.repository.name }}"
   SCHEMA_DIR: /home/runner/.datree/crdSchemas
 
 jobs:
