@@ -31,7 +31,6 @@ env:
   RENOVATE_ONBOARDING_CONFIG_FILE_NAME: .github/renovate.json5
   RENOVATE_AUTODISCOVER: true
   RENOVATE_AUTODISCOVER_FILTER: "${{ github.repository }}"
-  RENOVATE_USERNAME: "${{ secrets.BOT_USERNAME }}[bot]"
 
 jobs:
   renovate:
@@ -59,4 +58,4 @@ jobs:
         uses: renovatebot/github-action@v40.1.2
         with:
           configurationFile: "${{ env.RENOVATE_CONFIG_FILE }}"
-          token: "x-access-token:${{ steps.generate-token.outputs.token }}"
+          token: "${{ steps.generate-token.outputs.token }}"

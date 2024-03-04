@@ -17,10 +17,7 @@
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "dependencyDashboardAutoclose": true,
   "configWarningReuseIssue": true,
-  // "suppressNotifications": ["prIgnoreNotification"],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
-  "platformAutomerge": true,  // https://docs.renovatebot.com/modules/manager/pre-commit/
+  "platformAutomerge": true,
   "kubernetes": {
     "fileMatch": [
       "kubernetes/.+\\.ya?ml$"
