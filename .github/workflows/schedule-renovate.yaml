@@ -25,4 +25,4 @@ on:
 
 jobs:
   renovate:
-    uses: Pjstaab/renovate-workflow/workflow.yaml@main
+    uses: Pjstaab/renovate-workflow/.github/workflows/renovate.yaml@main
